@@ -1,3 +1,4 @@
+import Link from "next/link"
 const Errorpage = () => {
   return (
     <> <div style={{
@@ -19,7 +20,7 @@ const Errorpage = () => {
                 <p>
                     The page you are looking for might have been removed had its name changed or is temporarily unavailable.
                 </p>
-                <a href="/emotion-detection" style={{color:'pink'}}>Back To Homepage</a>
+                <Link href="/emotion-detection" style={{color:'pink'}}>Back To Homepage</Link>
             </div>
         </div>
         </div>

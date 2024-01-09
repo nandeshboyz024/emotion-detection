@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 export default function Sidebar() {
   return (
     <div>
         <div className="base">
             <div className="text-center">
-                <img id="logo" style={{width:'40px',height:'40px'}}  src="/images/VizLogo.gif" alt="VizLogo" srcSet=""/>
+                <Image id="logo" style={{width:'40px',height:'40px'}}  src="/images/VizLogo.gif" alt="VizLogo" srcSet=""/>
             </div>
             <h3 className="text-white text-center mt-3">Vizuara</h3>
             <hr className="border-light"/>

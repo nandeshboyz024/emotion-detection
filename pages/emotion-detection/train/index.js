@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Sidebar from '../../../components/emotion-detection/Sidebar'
 import {useEmotionContext} from '../../../context/EmotionContext'
 import Head from 'next/head';
+import Image from 'next/image';
 export default function Train() {
     const {myData,setIsTrain} = useEmotionContext();
     const [alert,setAlert]=useState(null);
@@ -69,7 +70,7 @@ export default function Train() {
                                 <p>If It makes incorrect predictions, train it and teach it what is right. In other words, add new data to the training data.</p>
                             </div>
                             <div className="col-lg-6">
-                                <img src="/images/bert.png" style={{width:'400px'}} alt="" srcSet=""/>
+                                <Image src="/images/bert.png" style={{width:'400px'}} alt="" srcSet=""/>
                             </div>
                         </div>
                     </div>

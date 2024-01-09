@@ -21,15 +21,15 @@ const Index = () => {
       Emotion detection, also known as sentiment analysis, is a fascinating field within natural language processing (NLP) that focuses on understanding and interpreting the emotions expressed in textual content. In the context of this project, we delve into the intriguing realm of Emotion Detection using Text.
     </p>
     <p style={{fontSize:'18px'}}>
-      As humans, we naturally convey our feelings, opinions, and sentiments through the words we use. Whether it's a social media post, customer reviews, or news articles, text is a rich source of emotional expression. Emotion detection algorithms enable us to analyze and comprehend these sentiments programmatically, providing valuable insights into the emotional tone and mood behind the words.
+      As humans, we naturally convey our feelings, opinions, and sentiments through the words we use. Whether it is a social media post, customer reviews, or news articles, text is a rich source of emotional expression. Emotion detection algorithms enable us to analyze and comprehend these sentiments programmatically, providing valuable insights into the emotional tone and mood behind the words.
     </p>
     <p style={{fontSize:'18px'}}>
       This project aims to explore and implement methods for detecting emotions in textual data. By leveraging advanced machine learning techniques and natural language processing models, we strive to build a system that can automatically recognize and categorize emotions such as joy, sadness, anger, and more.
     </p>
     <p style={{fontSize:'18px'}}>
-      Welcome to our journey into Emotion Detection using Text! Imagine teaching computers to understand feelings - that's exactly what we're up to. 
+      Welcome to our journey into Emotion Detection using Text! Imagine teaching computers to understand feelings - that is exactly what we are up to. 
     </p>
-    <button className='btn_style' style={{padding:'5px'}}><Link href='/emotion-detection/' className="nav-link ">Let's Start</Link></button>   
+    <button className='btn_style' style={{padding:'5px'}}><Link href='/emotion-detection/' className="nav-link ">Let&apos;s Start</Link></button>   
    </div>
    </div>
   );

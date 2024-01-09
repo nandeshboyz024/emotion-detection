@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../Home'
+import Home from '../home'
 import Head from 'next/head'
 import {EmotionContextProvider} from '../../context/EmotionContext'
 export default function index() {

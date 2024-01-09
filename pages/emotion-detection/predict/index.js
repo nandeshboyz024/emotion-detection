@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react'
 import Sidebar from '../../../components/emotion-detection/Sidebar'
 import {useEmotionContext} from '../../../context/EmotionContext'
 import Head from 'next/head';
+import Image from 'next/image';
 export default function Predict() {
     const {isTrain} = useEmotionContext();
     const [alert,setAlert]=useState(null);
@@ -229,7 +230,7 @@ export default function Predict() {
                                 <div className="card" style={{textAlign:'center'}}>
                                     <h2 id="song_id" style={{fontWeight:'bold',background: 'linear-gradient(to right, #FCC978, #FB5EA3)', WebkitBackgroundClip: 'text', color: 'transparent',fontFamily:'Helvetica Neue'}} >My Prediction</h2>
                                     <h2 style={{fontWeight:'bold',background: 'linear-gradient(to right, #FB5CA6, #FA00FF)', WebkitBackgroundClip: 'text', color: 'transparent',fontFamily:'Helvetica Neue'}}>{prediction &&  prediction.prediction}</h2>
-                                    <img src={sticker} alt="predicted emotion" srcSet=""/>
+                                    <Image src={sticker} alt="predicted emotion" srcSet=""/>
                                 </div>
                             </div>
                         </div>
